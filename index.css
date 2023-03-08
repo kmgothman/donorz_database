@@ -1,0 +1,23 @@
+/*selector {
+	Property: value;
+}*/
+
+html, body { 
+  background: url(images/home_image.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1  { 
+	font-size:5em;
+}
+
+h2  { 
+	font-family:Courier New;
+}
+
+header{
+	top:100px;
+}
