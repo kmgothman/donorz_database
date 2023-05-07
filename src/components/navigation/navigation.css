@@ -1,0 +1,73 @@
+nav {
+  background-color: #282c34;
+  min-height: 100vh;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: grid;
+  grid-template-rows: 200px 1fr
+}
+
+.nav {
+	display: flex;
+	align-content: flex-start;
+	align-self: top;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 30px;
+}
+
+.Logo {
+	display: grid;
+	background-color: #c0c7cc;
+}
+
+img {
+	justify-self: center;
+	align-self: center;
+}
+
+a.sideBar {
+	padding: 10px 10px 10px 30px;
+	font: message-box;
+	color: #c0c7cc;
+	font: message-box;
+	text-decoration: none;
+	align-self: flex-start;
+}
+
+a:hover {
+	color: #637685;
+	cursor: pointer;
+}
+
+
+.dropBox {
+	padding:;
+	background-color: #5a5f6b;
+
+	font: message-box;
+	color: #c0c7cc;
+	font: message-box;
+	text-decoration: none;
+	align-content: flex-start;
+	align-self: stretch;
+	display: flex;
+}
+
+.dropBoxItem{
+	padding: 5px 5px 5px 40px;
+	align-self: flex-start;
+	color: #c0c7cc;
+	text-decoration: none;
+}
+/*a {
+	color: grey;
+	font: message-box;
+	text-decoration: none;
+	position: sticky;
+	left: 10px;
+}*/

@@ -1,0 +1,268 @@
+.App {
+  text-align: center;
+  display: grid;
+/*  grid-template-columns: 200px 3fr;*/
+/*  grid-template-rows: 200px 3fr;*/
+}
+
+.Main {
+  background-color: #e9ecf2;
+  text-align: center;
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 2;
+/*  grid-template-columns: 1fr;*/
+  grid-template-rows: 150px 1fr;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.landing{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.box-home{
+  display: grid;
+  grid-template-rows: 125px 3fr;
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.box-top{
+  display: flex;
+  background-color: #1d2730;
+  align-content: center;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.box-bottom{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.register {
+  height: 50px;
+  width: 225px;
+}
+
+.a{
+  color:#2f87ba;
+  margin: 10px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+fieldset {
+  border: none;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.fieldset {
+  display: grid;
+  grid-template-rows: 4fr 1fr 1fr;
+}
+
+.createaccountfieldset {
+  display: grid;
+  grid-template-rows: 4fr 1fr 1fr 1fr;
+}
+
+div > h1 {
+  font-size: 1em;
+}
+
+button.register{
+  height: 50px;
+  width: 225px;
+  border: none;
+  border-radius:7px;
+  background-color:#1c69a3;
+  color:white;
+}
+
+button.register:hover {
+  background-color:#47afff;
+}
+
+#signinbutton {
+  margin-left: 10px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius:7px;
+  background-color:#1c69a3;
+  color:white;
+}
+
+#signinbutton:hover {
+  background-color:#47afff;
+}
+
+.navigate {
+  display:flex;
+  justify-content: center;
+}
+
+.dashboardBody {
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dashboardCard {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  margin: 10px;
+  background-color: #50adfa;
+  border-radius: 10px;
+}
+
+.cardTop {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #2d3547;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #ffe136;
+  font-family: "sans-serif",helvetica;
+  font-weight: bold;
+  font-size:1.2em;
+
+}
+
+.cardBottomMonths {
+  color: white;
+  font-size:1em;
+  font-weight: bold;
+  font-size: ;
+}
+
+.cardBottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  color:white;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.Table {
+  background-color: #f5e893;
+  min-height: 100vh;
+  grid-row-start: 2 / 3;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  display:flex;
+  justify-content: center;
+}
+
+table {
+  margin:10px;
+  border-radius: 10px;
+  background-color: #2d3547;
+}
+
+.tableHead{
+  color:white;
+  font-weight: bold;
+}
+
+.row {
+  background-color: #cacccf;
+}
+
+a {
+  color: #2f87ba;
+}
+
+.Prev {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-left: 4px;
+}
+
+.This {
+  font-weight: bold;
+  font-size: 1.3em;
+  color:#696969;
+}
+
+.Next {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.lapsedGiftContent {
+  background-color: #f5e893;
+  display:flex;
+  justify-content: center;
+
+}
+
+.uploadDataContent {
+  background-color: #f5e893;
+  display:flex;
+  justify-content: center;
+
+}
+
+.dragDropField {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px ;
+  background-color: #e6e9f2;
+  border-radius: 50px;
+  justify-content: center;
+  align-content: center;
+  margin: 15px;
+  border-style: dashed;
+  border-width: 4px;
+  border-color: #cccfd9;
+}
+
+form {
+  height: 75px;
+  justify-content: center;
+  align-content: center;
+}
